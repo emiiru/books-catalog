@@ -109,7 +109,7 @@ function getDatas() {
                     "<td>" + value.publisher + "</td>" +
                     "<td>" + value.published_year + "</td>" +
                     "<td>" + value.category + "</td>" +
-                    "<td class='text-center'><button class='btn btn-secondary btn-edit' data-id='" + value.id + "'>Edit</button><button class='btn btn-secondary btn-delete' data-id='" + value.id + "'>Delete</button></td>" +
+                    "<td class='text-center'><button class='btn btn-secondary btn-edit' data-id='" + value.id + "'>Edit</button><button class='btn btn-secondary btn-delete ml-2' data-id='" + value.id + "'>Delete</button></td>" +
                     "</tr>");
                 newTextBoxDiv.appendTo("#books_group");
                 console.log(value);
