@@ -47,7 +47,7 @@
                         <div class="col">
                             <div class="form-group">
                                 <label for="">Year Publsihed</label>
-                                <input type="text" class="form-control" name="year" id="edit_year"
+                                <input type="number" max="9999" class="form-control" name="year" id="edit_year"
                                     placeholder="Year Publsihed" required>
                             </div>
                         </div>
